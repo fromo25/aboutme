@@ -1,0 +1,158 @@
+body {
+  background-color: #222222;
+  /* Typography Declarations */
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+::selection {
+  /* Appearance Declarations */
+  background: #99ccff;
+}
+
+a {
+  /* Typography Declarations */
+  font-weight: bold;
+  text-decoration: none;
+  color: #99ccff;
+}
+
+a:hover {
+  /* Typography Declarations */
+  color: #0099ff;
+  opacity: 0.7;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+  /* Typography Declarations */
+  font-size: 2em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #99ccff;
+  text-shadow: 2px 2px #0000ff;
+}
+
+h2 {
+  font-size: 1em;
+  color: white;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align:center;
+}
+
+.masthead {
+  border-bottom: solid .7em #112277;
+  background-image: url("https://images.unsplash.com/photo-1449024540548-94f5d5a59230?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dec4b59ca06926527007bd98670f2800");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6em 0;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  color: white;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  text-shadow: 2px 2px #0000ff;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.02em;
+  /* Typography Declarations */
+  color: #ffffff;
+  text-shadow: 3px 3px #0000FF;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  /* Layout Declarations */
+  color: white;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+
+.hobby-pics {
+  /* Layout Declarations */
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #99ccff;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.music-links {
+  color: #99ccff;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+.content-footer {
+  color: black;
+  font-family: Arial Black, Gadget, sans-serif;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  background-color: #ffffff;
+}
